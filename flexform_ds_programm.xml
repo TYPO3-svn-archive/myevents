@@ -1,0 +1,45 @@
+ <T3DataStructure>
+  <meta>
+        <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+   <sDEF>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:myevents/locallang_db.xml:tt_content.pi_flexform.sheet_general</sheetTitle>
+     </TCEforms>
+	  <type>array</type>
+       <el>
+              <categories>
+                        <TCEforms>
+                                <label>LLL:EXT:myevents/locallang_db.xml:tx_myevents_programm.categories</label>
+                                <config>
+										<type>select</type>
+										<size>6</size>
+										<foreign_table>tx_myevents_categories</foreign_table>
+					              	  	<multiple>1</multiple>
+										<maxitems>3</maxitems>
+					                	<selectedListStyle>width:150px</selectedListStyle>
+					                	<itemListStyle>width:150px</itemListStyle>
+										<wizards type="array">
+											<_PADDING>2</_PADDING>
+											<edit>
+											 	<type>popup</type>
+												<title>Edit</title>
+												<script>wizard_edit.php</script>
+												<popup_onlyOpenIfSelected>1</popup_onlyOpenIfSelected>
+											 	<icon>edit2.gif</icon>
+											 	<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+											</edit>
+										</wizards>
+                                </config>
+                        </TCEforms>
+              	</categories> 
+            </el>
+     </ROOT>
+    </sDEF>
+   </sheets>
+ </T3DataStructure>
+ 
+		
+		

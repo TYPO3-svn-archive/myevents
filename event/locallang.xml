@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_myevents_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+			
+			<label index="starttime">Starts at</label>
+			<label index="endtime">Ends at</label>
+			<label index="duration">Takes</label>
+			<label index="hours">Hours</label>
+			<label index="days">Days</label>
+			<label index="fee.participate">Fee</label>
+			<label index="fee.entry">Fee</label>
+			<label index="fee.currency">$</label>
+
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+			
+			<label index="starttime">Beginnt am</label>
+			<label index="endtime">Endet am</label>
+			<label index="duration">Dauert</label>
+			<label index="hours">Stunden</label>
+			<label index="days">Tage</label>
+			<label index="fee.participate">Teilnahmegebühr</label>
+			<label index="fee.entry">Eintritt</label>
+			<label index="fee.currency">€</label>
+		</languageKey>
+	</data>
+		
+</T3locallang>

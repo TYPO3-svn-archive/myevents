@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'myevents'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_myevents_referent">Referent</label>
+			<label index="tx_myevents_referent.portrait">Portrait</label>
+			<label index="tx_myevents_referent.information">Information</label>
+			<label index="tx_myevents_referent.hidden">Hidden</label>
+			<label index="tx_myevents_referent.name">Name</label>
+			<label index="tx_myevents_referent.email">Email-adress</label>
+			<label index="tx_myevents_referent.company">Company</label>
+			<label index="tx_myevents_referent.position">Position</label>
+			<label index="tx_myevents_referent.fields">Business Line</label>
+			<label index="tx_myevents_referent.biography">Biography</label>
+			<label index="tt_content.CType_referent">Referent</label>
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.sheet_options">Options</label>
+			
+			<label index="tx_myevents_locations">Location</label>
+			<label index="tx_myevents_locations.title">Title</label>
+			<label index="tx_myevents_locations.room">Room</label>
+			<label index="tx_myevents_locations.building">Building</label>
+			<label index="tx_myevents_locations.street">Street | Housenumber</label>
+			<label index="tx_myevents_locations.city">City</label>
+			<label index="tx_myevents_locations.zip">Postal Code</label>
+			
+			<label index="tt_content.CType_event">Event</label>
+			<label index="tx_myevents_event.name">Name</label>
+			<label index="tx_myevents_event.discipline">Discipline</label>
+			<label index="tx_myevents_event.discipline.1">Communications design</label>
+			<label index="tx_myevents_event.discipline.2">Fashion design</label>
+			<label index="tx_myevents_event.discipline.3">Intermedia design</label>
+			<label index="tx_myevents_event.discipline.4">Architecture</label>
+			<label index="tx_myevents_event.discipline.5">Jewel design</label>
+			<label index="tx_myevents_event.discipline.6">Interieur design</label>
+			<label index="tx_myevents_event.description">Description</label>
+			<label index="tx_myevents_event.starttime">Starts at</label>
+			<label index="tx_myevents_event.endtime">Ends at</label>
+			<label index="tx_myevents_event.teaser">Teaser</label>
+			<label index="tx_myevents_event.enablereg">Online-Registration</label>
+			<label index="tx_myevents_event.regstart">Registration starts</label>
+			<label index="tx_myevents_event.fee">Fee</label>
+			<label index="tx_myevents_event.maxattendees">Maximum number of attendees</label>
+			<label index="tx_myevents_event.registration">Registration</label>
+			<label index="tt_content.event.images">Images</label>
+			
+			<label index="tt_content.CType_programm">Program</label>
+			<label index="tx_myevents_programm.name">Headline</label>
+			<label index="tx_myevents_programm.categories">Only show events within these categories | Maximum 3 | No selection shows all Events</label>
+
+			<label index="tx_myevents_categories">Category</label>
+			<label index="tx_myevents_categories.name">Name</label>			
+
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_myevents_referent">Referent</label>
+			<label index="tx_myevents_referent.name">Name</label>
+			<label index="tx_myevents_referent.information">Information</label>
+			<label index="tx_myevents_referent.email">Email Adresse</label>
+			<label index="tx_myevents_referent.portrait">Portrait</label>
+			<label index="tx_myevents_referent.hidden">Verstecken</label>
+			<label index="tx_myevents_referent.company">Unternehmen | Agentur</label>
+			<label index="tx_myevents_referent.position">Postition</label>
+			<label index="tx_myevents_referent.fields">Geschäftsbereiche</label>
+			<label index="tx_myevents_referent.biography">Biographie</label>
+			<label index="tt_content.CType_referent">Referent</label>
+			<label index="tt_content.pi_flexform.sheet_general">Allgemein</label>
+			<label index="tt_content.pi_flexform.sheet_options">Optionen</label>
+			
+			<label index="tx_myevents_locations">Ort</label>
+			<label index="tx_myevents_locations.title">Bezeichnung</label>
+			<label index="tx_myevents_locations.room">Raum</label>
+			<label index="tx_myevents_locations.building">Gebäude</label>
+			<label index="tx_myevents_locations.street">Straße | Hausnummer</label>
+			<label index="tx_myevents_locations.city">Stadt</label>
+			<label index="tx_myevents_locations.zip">Postleitzahl</label>
+			
+			<label index="tt_content.CType_event">Event</label>
+			<label index="tx_myevents_event.name">Name</label>
+			<label index="tx_myevents_event.discipline">Fachrichtung</label>
+			<label index="tx_myevents_event.discipline.1">Kommunikationsdesign</label>
+			<label index="tx_myevents_event.discipline.2">Modedesign</label>
+			<label index="tx_myevents_event.discipline.3">Intermediales Design</label>
+			<label index="tx_myevents_event.discipline.4">Architektur</label>
+			<label index="tx_myevents_event.discipline.5">Edelstein | Schmuckdesign</label>
+			<label index="tx_myevents_event.discipline.6">Innenarchitektur</label>
+			<label index="tx_myevents_event.description">Beschreibung</label>
+			<label index="tx_myevents_event.starttime">Beginn</label>
+			<label index="tx_myevents_event.endtime">Endet</label>
+			<label index="tx_myevents_event.teaser">Kurzbeschreibung</label>
+			<label index="tx_myevents_event.enablereg">Online-Registrierung</label>
+			<label index="tx_myevents_event.regstart">Online-Registrierung beginnt</label>
+			<label index="tx_myevents_event.fee">Teilnahmegebühr</label>
+			<label index="tx_myevents_event.maxattendees">Maximale Teilnehmeranzahl</label>
+			<label index="tx_myevents_event.registration">Anmeldung</label>
+			<label index="tt_content.event.images">Bilder</label>
+			
+			<label index="tt_content.CType_programm">Programm</label>
+			<label index="tx_myevents_programm.name">Überschrift</label>
+			<label index="tx_myevents_programm.categories">Nur Events aus diesen Kategorien anzeigen | Maximal 3 | Keine Auswahl zeigt alle Events</label>
+		
+			<label index="tx_myevents_categories">Kategorie</label>
+			<label index="tx_myevents_categories.name">Name</label>
+			
+		</languageKey>
+	</data>
+</T3locallang>
+
