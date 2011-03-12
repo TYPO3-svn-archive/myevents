@@ -1,0 +1,107 @@
+
+tt_content.myevents_event >
+tt_content.myevents_event = < plugin.tx_myevents_event
+tt_content.myevents_programm >
+tt_content.myevents_programm = < plugin.tx_myevents_programm
+
+plugin.tx_myevents_location {
+	# cObj to be renderd | DON'T REMOVE! - work within
+	renderModel = COA
+	renderModel {
+		10 = TEXT
+		10 {
+			value = [[[ myevents_location.title ]]]
+			wrap = <div class="location_title">|</div>
+			myevents_location.makeGoogleLink = 1 
+			myevents_location.makeGoogleLink.target = _blank
+		}
+		20 = TEXT
+		20 {
+			value = [[[ myevents_location.building ]]]  [[[ room ]]]
+			wrap = <div class="location_building">|</div>
+		}
+		30 = TEXT
+		30 {
+			value = [[[ myevents_location.street ]]]
+			wrap = <div class="location_street">|</div>
+		}
+		40 = TEXT
+		40 {
+			value = [[[ myevents_location.zip ]]] [[[ myevents_location.city ]]]
+			wrap = <div class="location_city">|</div>
+		}
+		wrap= <div class="myevents_location">|</div>
+		
+	}
+}
+
+# cObj to be renderd | DON'T REMOVE! - work within
+tt_content.myevents_event.renderModel = COA
+tt_content.myevents_event.renderModel {
+		10 = < tt_content.header
+		15 = < plugin.tx_myevents_location
+		20 = TEXT
+		20 {
+			value = [[[ myevents_event.starttime ]]]
+			wrap = <div class="event_starttime">|</div>
+			# Comma separeted list of time-format-characters for PHP-Date function - mask signs with '()' - see http://www.php.net/manual/en/function.date.php
+			myevents_event.format = j,(. ),n,(. - ),G,(:),i
+		}
+		30 = TEXT
+		30 {
+			value = [[[myevents_event.endtime]]]
+			wrap = <div class="event_endtime">|</div>
+			# Comma separeted list of time-format-characters for PHP-Date function - mask signs with '()' - see http://www.php.net/manual/en/function.date.php
+			myevents_event.format = j,(. ),n,(. - ),G,(:),i	
+		}
+		40 = TEXT
+		40 {
+			value = [[[myevents_event.duration]]]
+			wrap = <div class="event_duration">|</div>
+		}
+		50 = TEXT
+		50 {
+			value = [[[myevents_event.teaser]]]
+			wrap = <div class="event_teaser">|</div>
+		}
+		60 = TEXT
+		60 {
+			value = [[[myevents_event.category]]]
+			wrap = <div class="event_category">|</div>
+		}
+		70 = TEXT
+		70 {
+			value = [[[myevents_event.discipline]]]
+			wrap = <div class="event_discipline">|</div>
+		}
+		90 = TEXT
+		90 {
+			value = [[[myevents_event.regstart]]]
+			wrap = <div class="event_regstart">|</div>
+			# Comma separeted list of time-format-characters for PHP-Date function - mask signs with '()' - see http://www.php.net/manual/en/function.date.php
+			myevents_event.format = j,(. ),n,(. - ),G,(:),i
+		}
+		100 = TEXT
+		100 {
+			value = [[[myevents_event.fee]]]
+			wrap = <div class="event_fee">|</div>
+		}
+		110 = TEXT
+		110 {
+			value = [[[myevents_event.maxattendees]]]
+			wrap = <div class="event_maxattendees">|</div>
+		}
+		120 = USER
+		120 = < tt_content.text.20
+		130 = < tt_content.image.20
+		
+		wrap= <div class="myevents_event">|</div>
+}
+
+
+
+	
+
+
+
+	
